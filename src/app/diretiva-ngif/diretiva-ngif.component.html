@@ -15,3 +15,14 @@
 
 <button (click)="onMostrarCursos()">Mostrar ou esconder cursos</button>
 
+
+<h3>Hidden como alternativa</h3>
+
+<div [hidden]="!mostrarCursos">
+  Lista aqui
+</div>
+
+<div [hidden]="mostrarCursos">
+  Não existem cursos
+</div>
+
