@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as $ from 'jquery';
 @Component({
   selector: 'app-exemplo-ngcontent',
   templateUrl: './exemplo-ngcontent.component.html',
