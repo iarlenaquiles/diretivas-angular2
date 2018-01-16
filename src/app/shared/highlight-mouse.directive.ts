@@ -6,9 +6,10 @@ import { Directive, HostListener, ElementRef, Renderer } from '@angular/core';
 export class HighlightMouseDirective {
 
   @HostListener('mouseenter') onMouseOvrt () {
-
+    this.renderer.setElementStyle(this.elementRef.nativeElement,
+    'background-color', 'yellow');
   }
 
-  constructor() { }
+  constructor(private elementRef: ElementRef, private renderer: Renderer) { }
 
 }
