@@ -1,7 +1,7 @@
 import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
-  selector: '[FundoAmarelo]'
+  selector: '[FundoAmarelo]' //colocar a tag na frente para definir exclusividade ex.: p[FundoAmarelo]
 })
 export class FundoAmareloDirective {
 
