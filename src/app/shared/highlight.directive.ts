@@ -18,7 +18,7 @@ export class HighlightDirective {
 
   @Input() defaultColor: string = 'white';
 
-  @Input() highlightColor: string = 'yellow';
+  @Input('highlight') highlightColor: string = 'yellow';
 
   constructor() { }
 
