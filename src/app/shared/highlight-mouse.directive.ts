@@ -1,7 +1,7 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appHighlightMouse]'
+  selector: '[HighlightMouse]'
 })
 export class HighlightMouseDirective {
 
